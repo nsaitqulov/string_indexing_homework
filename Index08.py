@@ -6,5 +6,12 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    x=s.find("*",0,(len(s)+1))
+    y=x=="*"
+    if y:
+        return s.index("*")
+    else :
+        return y
+
+print(main("good"))
         
