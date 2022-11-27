@@ -6,4 +6,21 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    if s.isdigit():
+        x=int(s)
+
+        a=x%10
+        x//=10
+
+        a1=x%10
+        x//=10
+
+        a2=x%10
+        x//=10
+
+        a3=x%10
+        x//=10
+
+        a4=x%10
+        return a+a1+a2+a3+a4
+print(main("12332"))
