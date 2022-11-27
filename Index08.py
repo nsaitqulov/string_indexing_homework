@@ -10,7 +10,7 @@ def main(s):
     if x:
         return s.find("*")
     else:
-        return "False"
+        return x
     
-print(main("244"))
+print(main("244*"))
         
