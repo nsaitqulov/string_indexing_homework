@@ -6,12 +6,11 @@ def main(s):
     Returns:
         int: answer
     """
-    x=s.find("*",0,(len(s)+1))
-    y=x=="*"
-    if y:
-        return s.index("*")
-    else :
-        return y
-
-print(main("good"))
+    x=s.count("*")
+    if x:
+        return s.find("*")
+    else:
+        return "False"
+    
+print(main("244"))
         
