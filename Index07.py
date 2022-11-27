@@ -6,4 +6,10 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    x=(len(s)-1)>=n
+    if x:
+        return s[n]
+    else:
+        return x
+print(main("uz", 2))
+    
