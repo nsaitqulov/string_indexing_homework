@@ -8,5 +8,6 @@ def main(s):
     """
     x=s[0]
     y=s[-1]
-    return x+y
+    z=x+y
+    return z
 print(main("good"))
